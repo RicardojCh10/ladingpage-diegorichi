@@ -64,7 +64,7 @@ import ByNumber from "./ByNumber.astro";
 console.log("Token enviado:", token);
 
     try {
-      const res = await fetch("http://localhost:3000/api/contacto", {
+      const res = await fetch("http://146.190.215.127:3000/api/contacto", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(data),
